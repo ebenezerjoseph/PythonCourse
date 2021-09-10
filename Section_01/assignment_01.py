@@ -5,8 +5,8 @@
     How would you change the code to meet the requirement?
 
 """
-
-
+x=15%4
+print(x)
 
 
 
