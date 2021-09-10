@@ -24,7 +24,10 @@ word = "Cool"
 
 # Your code below:
 
-
+chars = "<<[]]]"
+word = "Cool"
+x=(chars[:3] + word + chars[3:])
+print(x)
 
 
 
