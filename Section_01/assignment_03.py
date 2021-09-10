@@ -24,7 +24,12 @@ word = "Cool"
 
 
 
-
+chars = "[[]]"
+word = "Cool"
+x=chars[:2]
+y=chars[2:]
+result= x+word+y
+print(result)
 
 
 
