@@ -14,6 +14,15 @@ twelver(9, 3) → True
 
 # Your Code Below:
 
+a=int(input('Enter a num: '))
+b=int(input('Enter a num: '))
+
+def twelver(a,b):
+    if a==12 or b==12 or a+b==12:
+        print(True)
+    else:
+        print(False)
+twelver(a,b)
 
 
 
