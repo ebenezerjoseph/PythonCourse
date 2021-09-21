@@ -15,7 +15,13 @@ sequence([]) → False
 
 
 
+def sequence(num_list):
+    for char in num_list:
+        if num_list[char]==1 and num_list[char+1]==2  and num_list[char+2]==3:
+            return True
+    return False
 
+print(sequence([1, 1, 2, 1, 2, 3]))
 
 
 
