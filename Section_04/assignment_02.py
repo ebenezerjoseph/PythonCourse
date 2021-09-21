@@ -21,7 +21,11 @@ Example:
 
 
 
+hour=range(24)
+def paying_extra(working,hour):
+    return working==True and (hour <=8 or hour > 20)
 
+print(paying_extra(True,21))
 
 
 
